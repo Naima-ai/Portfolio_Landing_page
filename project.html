@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- !Swiper add -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
 
     <!-- ! GOOGLE FONTs -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,35 +14,34 @@
 
     <!-- !ICON  -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- !Title -->
     <title>
         Naima Tasnia
     </title>
-   
+
+        <!-- !Fave icon-->
+        <link rel="shortcut icon" href="" type="image/x-icon">
 
     <!--! CSS connect -->
-    <link rel="stylesheet" href="./css/style.css" />
-    
-    <!-- !Fave icon-->
-    <link rel="shortcut icon" href="" type="image/x-icon">
-
+    <link rel="stylesheet" href="css/style.css" />
 
     <style>
+        .projects {
+            margin-top: 1rem;
+        }
+        
         body {
-            background-image: url('./images/bg-texture.png');
+            background-image: url('images/bg-texture.png');
         }
     </style>
 </head>
 
 <body>
-    
-
     <!-- !=============Navbar section =============== -->
     <nav>
         <div class="container nav_container">
-            <a href="index.html"><br>
+            <a href="index.html">
                 <h3>Naima Tasnia</h3>
             </a>
             <ul class="nav_menu">
@@ -60,35 +56,22 @@
     </nav>
     <!-- !========== END NAvBar-->
 
-    <!-- !===============START HEADER SECTION=========== -->
+    <!-- !==========START project SECTION========== -->
 
-    <header>
-        <div class="container header__container">
-            <div class="header_left">
-                <h1>Data Scientist</h1>
-                <p>
-                    Hi I am Naima. I am a passionate Data Science learner, driven by the enthusiasm of exploring fields of Machine learning and Deep learning. I am focused on leveraging my skills, experience, and passion to contribute meaningfully to a dynamic team and organization. I am committed to continuous growth and innovation in my field, with a strong desire to make a positive impact.</p>
-                
-            </div>
-            <div class="header_right">
-                <img src="./images/Data-Science-vs.-Big-Data-vs.avif" alt="">
-            </div>
-        </div>
-    </header>
 
-    <!-- !============END OF THEE HEADER========= -->
-     <!-- !==========START project SECTION========== -->
-   
+    <section class="projects">
         <div class="container">
+			<h3>Portfolio</h3>
 			<h2>My Work</h2>
-		</div><br>
+			
+		</div>
         <div class="container projects__container">
             <article class="project">
                 
                 <div class="project__info">
                     <div class="project__img">
-                        <img src="./images/facial.jpg" alt="">
-                    </div><br><br>
+                        <img src="images/facial.jpg" alt="">
+                    </div>
                     <h4>Facial Recognition Based attendace System</h4>
                     <p>The primary goal of this project is to develop an accurate and efficient Attendance Tracking based on face detection. 
                         Through using Python, Image Processing and MySQL, the project aims to identify faces then record and store attendance of students of a clss.
@@ -101,8 +84,8 @@
                 
                 <div class="project__info">
                     <div class="project__img">
-                        <img src="./images/d2.jpg" alt="">
-                    </div><br>
+                        <img src="images/d2.jpg" alt="">
+                    </div>
                     <h4>A Bluetooth Controlled Smart-bin</h4>
                     <p>The primary goal of this project is to control movement of bin and lid automatically through bluetooth and Mobile App. 
                     </p>
@@ -113,8 +96,8 @@
                 
                 <div class="project__info">
                     <div class="project__img">
-                        <img src="./images/movies.jpeg" alt="">
-                    </div><br><br>
+                        <img src="images/movies.jpeg" alt="">
+                    </div><br>
                     <h4>Movie Review Sentiment Analysis</h4>
                     <p>The primary goal of this project is to classify the movie reviews into positive or negative using ML and DL methods.
 
@@ -122,12 +105,11 @@
                     <a href="https://www.kaggle.com/code/naimatasnia/imdb-movie-sentiment-analysis-using-ml-and-dl" class="btn btn-primary">LEARN MORE</a>
                 </div>
             </article>
-            
             <article class="project">
                 
                 <div class="project__info">
                     <div class="project__img">
-                        <img src="./images/sales.jpg" alt="">
+                        <img src="images/sales.jpg" alt="">
                     </div><br>
                     <h4>Sales Data Analysis</h4>
                     <p>The primary goal of this project is to gain valuable insights into the sales performance of the company over the specified time frame. Through comprehensive analysis and visualization, the project aims to identify patterns, trends, and key factors influencing sales.
@@ -141,10 +123,10 @@
                 
                 <div class="project__info">
                     <div class="project__img">
-                        <img src="./images/expense.jpeg" alt="">
+                        <img src="images/expense.jpeg" alt="">
                     </div><br>
                     <h4>Expense Tracking and Budget Analysis</h4>
-                    <p>The aim of the Expense Tracking and Budget Analysis project using Excel is to develop a user-friendly system for monitoring and analyzing personal.It enables effective budgeting,expense categorization,and provides insights for informed financial decision-making
+                    <p>The aim of the Expense Tracking and Budget Analysis project using Excel is to develop a user-friendly system for monitoring and analyzing personal.
 
                     </p>
                     <a href="project.html" class="btn btn-primary">LEARN MORE</a>
@@ -154,10 +136,10 @@
             <article class="project">
                 <div class="project__info">
                     <div class="project__img">
-                        <img src="./images/customer-segmentation.jpg" alt="">
+                        <img src="images/customer-segmentation.jpg" alt="">
                     </div><br>
                     <h4>Customer Segmentation</h4>
-                    <p>This project aims to understand the customers of an automobile bike company better by dividing them into groups based on their behavior. This can be done using an RFM Model (Recency, Frequency, Monetary).This model helps to  look at when, how often, and how much customers buy.
+                    <p>This project aims to understand the customers of an automobile bike company better by dividing them into groups based on their behavior. This can be done using an RFM Model (Recency, Frequency, Monetary).
 
                     </p>
                     <a href="project.html" class="btn btn-primary">LEARN MORE</a>
@@ -165,13 +147,11 @@
             </article>
 
         </div>
+    </section>
     <!-- !==========END project SECTION========== -->
-
-    
 
 
      <!-- !================Footer section Start===== -->
-     <section>
      <footer>
         <div class="container footer__container ">
             <div class="footer__1 ">
@@ -239,33 +219,11 @@
         </div>
         
     </footer>
-</section>
     <!-- ! ========Footer section END========-->
-    
+
 
     <!-- !JAVASCRIPTS CONNECT -->
-    <script src="./js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            // ! when window width is>=600
-            breakpoints: {
-                600: {
-                    slidesPerView: 2,
-                }
-            }
-        });
-    </script>
-   
-    
+    <script src="js/main.js"></script>
 </body>
 
 </html>
